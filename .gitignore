@@ -1,0 +1,12 @@
+# Redact secrets
+config/config.yaml.full
+.env
+*.key
+*.pem
+
+# Exclude binary/large
+*.db
+*.sqlite
+*.pyc
+__pycache__/
+.DS_Store

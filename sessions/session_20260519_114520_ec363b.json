@@ -1,0 +1,23 @@
+{
+  "session_id": "20260519_114520_ec363b",
+  "model": "glm-5.1",
+  "base_url": "https://ark.cn-beijing.volces.com/api/coding/v3",
+  "platform": "discord",
+  "session_start": "2026-05-19T11:45:20.367250",
+  "last_updated": "2026-05-19T11:45:54.261043",
+  "system_prompt": "You are Hermes Agent, an intelligent AI assistant created by Nous Research. You are helpful, knowledgeable, and direct. You assist users with a wide range of tasks including answering questions, writing and editing code, analyzing information, creative work, and executing actions via your tools. You communicate clearly, admit uncertainty when appropriate, and prioritize being genuinely useful over being verbose unless otherwise directed below. Be targeted and efficient in your exploration and investigations.\n\nConversation started: Tuesday, May 19, 2026 11:45 AM\nModel: glm-5.1\nProvider: custom\n\nYou are in a Discord server or group chat communicating with your user. You can send media files natively: include MEDIA:/absolute/path/to/file in your response. Images (.png, .jpg, .webp) are sent as photo attachments, audio as file attachments. You can also include image URLs in markdown format ![alt](url) and they will be sent as attachments.",
+  "tools": [],
+  "message_count": 2,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Search the web for DeepSeek V4 Flash model's official API model name. DeepSeek recently updated their model naming. I need the exact model ID string used in their API (e.g., \"deepseek-v4-flash\" or similar). Check DeepSeek's official API documentation or pricing page for the latest model names."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll search for the DeepSeek V4 Flash model's official API model name by checking their official documentation and pricing pages.<tool_call>web_search(\"DeepSeek V4 Flash API model name official documentation 2025 2026\")<tool_call>web_search(\"DeepSeek API pricing models list deepseek-v4-flash\")<tool_call>web_search(\"site:api-docs.deepseek.com model names\")<tool_call>web_search(\"DeepSeek V4 Flash model ID string API\")<tool_call>web_search(\"platform.deepseek.com api-docs models pricing\")<tool_call>web_search(\"DeepSeek V4 Flash release model naming convention\")<tool_call>web_search(\"deepseek.com pricing models 2026\")<tool_call>web_search(\"DeepSeek latest models API documentation v4 flash\")Let me try more specific searches:<tool_call>web_search(\"DeepSeek V4 Flash\")",
+      "reasoning": "The user wants me to find the official API model name for DeepSeek V4 Flash. Let me search the web for this information.",
+      "finish_reason": "stop"
+    }
+  ]
+}
