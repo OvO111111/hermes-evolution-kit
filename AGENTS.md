@@ -41,12 +41,13 @@
 5. `desktop-control` > 仅非浏览器桌面应用
 
 ### Mandatory Trigger Families
-- **PRD/产品方案/原型**：`pm-prd` 强制，先读引用源再写
-- **后台管理UI/仪表板**：`frontend-design` + `open-design-design-systems`，先选设计系统参考
-- **数据分析报告**：先定决策问题 + 数据盘点 + 指标定义，再用 `xlsx`/`docx`/`pptx`
+- **PRD/产品方案/原型**：`pm-prd` 强制。先定位引用源（PRD、HTML mockup、样本、接口文档、业务边界），提取上下文包后再写。常见失败：从模板开始而非从上下文开始，跳过源检查，通用语言替代具体业务规则。
+- **后台管理UI/仪表板/CRM/审批/内部工具**：`open-design-design-systems` 强制。先选最接近的设计系统参考：linear-app（SaaS）、dashboard（分析）、notion（工作流）、vercel（开发者）、stripe（支付）、wechat（微信中文面）、xiaohongshu（内容运营）。不要从通用形容词开始样式。
+- **数据分析报告**：`data-analysis-report` 优先。决策问题 → 数据盘点（来源/行数/粒度/字段/缺失/指标定义）→ 证据 → 发现 → 建议。质量检查覆盖数据正确性和沟通质量。用 `xlsx`/`docx`/`pptx` 作为执行层。
 - **微信文章抓取**：`web-access` → Camoufox 回退路径
 - **飞书/Lark**：对应 lark skill，编辑真实飞书面
 - **自进化**：`absorb-lessons`，记录来源 + 决策 + 验证
+- **微信支付产品**：先映射渠道→产品类型（H5/JSAPI/小程序/App/委托代扣），再查官方文档确认政策
 
 ## Skill Governance（技能治理）
 
